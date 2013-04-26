@@ -1,10 +1,12 @@
 ShamsiDate
 ==========
 
-CakePHP Shamsi/jalali Date Plugin.
+CakePHP Shamsi/Jalali Date Plugin.
 
 
-# Loading and installation
+#Installation
+First extract zip file in __app/Plugin__ and change to __ShamsiDate__.
+
 Add the following to your __app/Config/bootstrap.php__
 ```php
 <?php
@@ -12,7 +14,7 @@ CakePlugin::load('ShamsiDate');
 ?>
 ```
 
-In your Controller
+In your Controller:
 ```php
 <?php
 public $components = array('ShamsiDate.Shamsi');
