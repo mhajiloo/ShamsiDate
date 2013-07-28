@@ -8,7 +8,7 @@
  * http://blog.hajiloo.net, http://minicode.ir
  *
  * @author        Majid Hajiloo <majid.hajiloo@gmail.com>
- * @link          http://blog.hajiloo.net/1392/02/%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE-%D8%B4%D9%85%D8%B3%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-cakephp/
+ * @link          http://hajiloo.net
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 App::uses('jDateTime', 'ShamsiDate.Libs');
