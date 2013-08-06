@@ -34,3 +34,8 @@ class TestController extends AppController {
 }
 ?>
 ```
+
+In View:
+```php
+<?php echo $this->Shamsi->date('l j F Y'); ?>
+```
