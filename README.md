@@ -18,6 +18,8 @@ In your Controller:
 ```php
 <?php
 public $components = array('ShamsiDate.Shamsi');
+
+public $helpers = array('ShamsiDate.Shamsi');
 ?>
 ```
 
@@ -27,6 +29,7 @@ public $components = array('ShamsiDate.Shamsi');
 class TestController extends AppController {
     public $uses = array();
     public $components = array('ShamsiDate.Shamsi');
+	public $helpers = array('ShamsiDate.Shamsi');
 
     public function index() {
         $this->set('shamsiDate', $this->Shamsi->date('l j F Y')); 
@@ -36,6 +39,9 @@ class TestController extends AppController {
 ```
 
 In View:
+```php
+<?php echo $shamsiDate; ?>
+```
 ```php
 <?php echo $this->Shamsi->date('l j F Y'); ?>
 ```
