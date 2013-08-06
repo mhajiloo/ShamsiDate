@@ -18,7 +18,6 @@ In your Controller:
 ```php
 <?php
 public $components = array('ShamsiDate.Shamsi');
-
 public $helpers = array('ShamsiDate.Shamsi');
 ?>
 ```
