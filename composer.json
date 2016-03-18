@@ -2,8 +2,8 @@
     "name": "mhajiloo/cakephp-jalalidate",
     "description": "Jalali/Shamsi Date plugin for CakePHP",
     "type": "cakephp-plugin",
-    "keywords": ["cakephp", "jalali", "shamsi", "date"],
-    "homepage": "https://github.com/mhajiloo/ShamsiDate",
+    "keywords": ["cakephp", "jalali", "shamsi", "persian", "date"],
+    "homepage": "https://github.com/mhajiloo/cakephp-jalalidate",
     "license": "MIT",
     "authors": [
         {
@@ -19,7 +19,7 @@
         "sallar/jdatetime": "dev-master"
     },
     "require-dev": {
-        "phpunit/phpunit": "*"
+        "phpunit/phpunit": "~5.2"
     },
     "autoload": {
         "psr-4": {
