@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ShamsiDate\\": "src"
+            "JalaliDate\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ShamsiDate\\Test\\": "tests",
+            "JalaliDate\\Test\\": "tests",
             "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
         }
     }
