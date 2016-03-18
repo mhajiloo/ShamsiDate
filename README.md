@@ -1,10 +1,10 @@
-ShamsiDate
+CakePHP - Jalali Date
 ==========
 
 CakePHP Jalali/Shamsi Date Plugin.
 
 
-#Installating via Composer
+#Installing via Composer
 ``` bash
 $ composer require mhajiloo/cakephp-jalalidate:"dev-master"
 ```
@@ -13,8 +13,8 @@ $ composer require mhajiloo/cakephp-jalalidate:"dev-master"
 ```php
 <?php
 class TestController extends AppController {
-    public $components = array('ShamsiDate.Shamsi');
-	public $helpers = array('ShamsiDate.Shamsi');
+    public $components = ['ShamsiDate.Shamsi'];
+	public $helpers = ['ShamsiDate.Shamsi'];
 
     public function index() {
         $this->set('shamsiDate', $this->Shamsi->date('l j F Y')); 
