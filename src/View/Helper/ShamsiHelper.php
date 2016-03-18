@@ -10,17 +10,17 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-namespace ShamsiDate\View\Helper;
+namespace JalaliDate\View\Helper;
 
 use Cake\View\Helper;
 use jDateTime;
 
 /**
- * Persian/Shamsi date helper class
+ * Jalali/Shamsi date helper class
  *
  * Use Shamsi date in CakePHP
  */
-class ShamsiHelper extends Helper {
+class JalaliHelper extends Helper {
     /**
     * Formats and returns given timestamp just like php's
     * built in date() function.

@@ -13,11 +13,11 @@ $ composer require mhajiloo/cakephp-jalalidate:"dev-master"
 ```php
 <?php
 class TestController extends AppController {
-    public $components = ['ShamsiDate.Shamsi'];
-	public $helpers = ['ShamsiDate.Shamsi'];
+    public $components = ['JalaliDate.Jalali'];
+	public $helpers = ['JalaliDate.Jalali'];
 
     public function index() {
-        $this->set('shamsiDate', $this->Shamsi->date('l j F Y')); 
+        $this->set('jalali_date', $this->Jalali->date('l j F Y')); 
     }
 }
 ?>
@@ -25,8 +25,8 @@ class TestController extends AppController {
 
 In View:
 ```php
-<?php echo $shamsiDate; ?>
+<?php echo $jalali_date; ?>
 ```
 ```php
-<?php echo $this->Shamsi->date('l j F Y'); ?>
+<?php echo $this->Jalali->date('l j F Y'); ?>
 ```

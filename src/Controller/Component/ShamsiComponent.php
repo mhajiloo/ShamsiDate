@@ -10,17 +10,17 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-namespace ShamsiDate\Controller\Component;
+namespace JalaliDate\Controller\Component;
 
 use Cake\Controller\Component;
 use jDateTime;
 
 /**
- * Persian/Shamsi date component class
+ * Jalali/Shamsi date component class
  *
  * Use Shamsi date in CakePHP
  */
-class ShamsiComponent extends Component {
+class JalaliComponent extends Component {
     
     /**
     * Formats and returns given timestamp just like php's
