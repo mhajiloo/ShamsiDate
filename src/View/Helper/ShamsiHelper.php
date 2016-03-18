@@ -1,20 +1,19 @@
 <?php
 
 /**
- * Shamsi/Jalali Date helper
+ * Jalali Date helper
  *
- * Use Shamsi date in CakePHP
+ * Use Jalali/Shamsi date in CakePHP
  *
  * @author        Majid Hajiloo <majid.hajiloo@gmail.com>
  * @link          http://majid.li
- * 
- * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
- * 
+ * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
 namespace ShamsiDate\View\Helper;
 
 use Cake\View\Helper;
+use jDateTime;
 
 /**
  * Persian/Shamsi date helper class

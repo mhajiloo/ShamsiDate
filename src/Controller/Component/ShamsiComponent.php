@@ -1,19 +1,19 @@
 <?php
 
 /**
- * Shamsi/Jalali Date component
+ * Jalali Date component
  *
- * Use Shamsi date in CakePHP
+ * Use Jalali/Shamsi date in CakePHP
  *
  * @author        Majid Hajiloo <majid.hajiloo@gmail.com>
  * @link          http://majid.li
- * @package	  app.Controller.Component
- * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
+ * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
 namespace ShamsiDate\Controller\Component;
 
 use Cake\Controller\Component;
+use jDateTime;
 
 /**
  * Persian/Shamsi date component class
@@ -149,4 +149,3 @@ class ShamsiComponent extends Component {
        return jDateTime::toGregorian($year, $month, $day);
    }
 }
-
