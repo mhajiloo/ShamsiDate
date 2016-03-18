@@ -1,0 +1,35 @@
+{
+    "name": "mhajiloo/ShamsiDate",
+    "description": "ShamsiDate plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "jalali", "shamsi", "date"],
+    "homepage": "https://github.com/mhajiloo/ShamsiDate",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Majid Hajiloo",
+            "email": "majid.hajiloo@gmail.com",
+            "homepage": "http://majid.li",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.16",
+        "cakephp/cakephp": "~3.0",
+        "sallar/jdatetime": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ShamsiDate\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ShamsiDate\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}

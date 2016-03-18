@@ -1,0 +1,12 @@
+*.diff
+*.err
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+.DS_Store
+/composer.lock
+/vendor
+/phpunit.xml

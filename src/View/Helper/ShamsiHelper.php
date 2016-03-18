@@ -4,24 +4,24 @@
  * Shamsi/Jalali Date helper
  *
  * Use Shamsi date in CakePHP
- * 
- * Copyright (c) 2013 Majid Hajiloo <majid.hajiloo@gmail.com>
  *
  * @author        Majid Hajiloo <majid.hajiloo@gmail.com>
- * @link          http://hajiloo.net
+ * @link          http://majid.li
+ * 
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  * 
  */
 
-App::uses('jDateTime', 'ShamsiDate.Libs');
-App::uses('AppHelper', 'View/Helper');
+namespace ShamsiDate\View\Helper;
+
+use Cake\View\Helper;
 
 /**
  * Persian/Shamsi date helper class
  *
  * Use Shamsi date in CakePHP
  */
-class ShamsiHelper extends AppHelper {
+class ShamsiHelper extends Helper {
     /**
     * Formats and returns given timestamp just like php's
     * built in date() function.
