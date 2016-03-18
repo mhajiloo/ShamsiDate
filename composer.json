@@ -1,6 +1,6 @@
 {
     "name": "mhajiloo/cakephp-jalalidate",
-    "description": "Jalali/Shamsi Date plugin for CakePHP",
+    "description": "Jalali Date plugin for CakePHP 3",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "jalali", "shamsi", "persian", "date"],
     "homepage": "https://github.com/mhajiloo/cakephp-jalalidate",

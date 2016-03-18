@@ -1,12 +1,12 @@
 CakePHP - Jalali Date
 ==========
 
-CakePHP Jalali/Shamsi Date Plugin.
+CakePHP Jalali Date Plugin.
 
 
 #Installing via Composer
 ``` bash
-$ composer require mhajiloo/cakephp-jalalidate:"dev-master"
+$ composer require mhajiloo/cakephp-jalalidate:"^1.0.0"
 ```
 
 #Example
