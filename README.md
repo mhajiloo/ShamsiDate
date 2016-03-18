@@ -10,6 +10,7 @@ $ composer require mhajiloo/cakephp-jalalidate:"dev-master"
 ```
 
 #Example
+In Controller:
 ```php
 <?php
 class TestController extends AppController {
