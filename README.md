@@ -8,15 +8,6 @@ CakePHP Jalali/Shamsi Date Plugin.
 ``` bash
 $ composer require mhajiloo/cakephp-jalalidate:"dev-master"
 ```
-```
-
-In your Controller:
-```php
-<?php
-public $components = array('ShamsiDate.Shamsi');
-public $helpers = array('ShamsiDate.Shamsi');
-?>
-```
 
 #Example
 ```php
